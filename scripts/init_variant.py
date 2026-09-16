@@ -128,7 +128,7 @@ def main() -> None:
 
     print(
         "\nDone. Next:\n"
-        "  1. Replace placeholder usernames in .github/CODEOWNERS\n"
+        "  1. Review .github/CODEOWNERS (defaults: lab lead + PI; add project members)\n"
         "  2. Fill in TODOs in README.md and CITATION.cff\n"
         "  3. git status && git diff, then commit"
     )
