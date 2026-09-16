@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.python-version
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.ipynb_checkpoints/
+
+# Static site build output
+_site/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.yaml
+
+# Data, models, and run outputs: keep out of git
+/data/*
+!/data/README.md
+/datasets/
+/checkpoints/
+/models/
+/outputs/
+/runs/
+/wandb/
+/logs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.parquet
+*.npy
+*.npz
+*.pkl
+*.zip
+*.tar.gz

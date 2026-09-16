@@ -1,0 +1,12 @@
+# TODO(CODEOWNERS): replace the placeholder usernames below with real GitHub usernames.
+# On GitHub Free + private repo this file is ADVISORY: GitHub auto-requests these
+# reviewers, but does not block merging without their approval.
+#
+# Order matters: the last matching pattern wins.
+
+*                         @LEAD-USERNAME @ADVISOR-USERNAME
+
+# Examples:
+# /src/                   @LEAD-USERNAME
+# /configs/               @LEAD-USERNAME
+# /.github/               @LEAD-USERNAME @ADVISOR-USERNAME

@@ -1,0 +1,13 @@
+# TODO: fill in title, authors, and (once published) preferred-citation.
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Project Title"
+authors:
+  - family-names: "LastName"
+    given-names: "FirstName"
+    affiliation: "Dartmouth College"
+  - name: "JASPR Lab"
+repository-code: "https://github.com/JASPR-Lab/project-name"
+license: MIT
+version: 0.1.0
+date-released: "2026-01-01"
